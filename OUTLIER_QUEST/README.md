@@ -40,11 +40,14 @@ Several machine learning models were considered, including:
 - Support Vector Machine (SVM)
 
 Performance metrics used:
-- Accuracy
-- Precision
-- Recall
-- F1-Score
-- ROC-AUC
+      |precision  |  recall| f1-score  | support
+
+      attack     |  0.97   |   0.70    |  0.81  |   12833
+      normal     |  0.71    |  0.97     | 0.82   |   9711
+
+    accuracy    |           |           | 0.82  |   22544
+   macro avg     |  0.84  |    0.84     | 0.82   |  22544
+weighted avg      | 0.86   |   0.82     | 0.82    | 22544
 
 ### 6. Results
 - The model with the best performance was **[insert best model]**, achieving an accuracy of **[insert accuracy]**.
