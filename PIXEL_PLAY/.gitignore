@@ -1,0 +1,12 @@
+.env
+.env.local
+.env.development.local
+.streamlit
+/.streamlit
+/.streamlit/config.toml
+/.streamlit/config.toml.example
+__pycache__/
+*.py[cod]
+
+venv
+venv.bak

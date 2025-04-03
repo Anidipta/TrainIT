@@ -1,0 +1,14 @@
+models/outputs/__results___files
+models/outputs/__output__.json
+models/outputs/__output__.jsonl
+models/outputs/__output__.jsonl.gz
+models/outputs/__output__.jsonl.gz.1
+.env
+.env.local
+.env.development.local
+.streamlit
+/.streamlit
+/.streamlit/config.toml
+/.streamlit/config.toml.example
+__pycache__/
+*.py[cod]
