@@ -39,19 +39,21 @@ Several machine learning models were considered, including:
 - XGBoost
 - Support Vector Machine (SVM)
 
-Performance metrics used:
-      |precision  |  recall| f1-score  | support
+### **Performance Metrics**
 
-      attack     |  0.97   |   0.70    |  0.81  |   12833
-      normal     |  0.71    |  0.97     | 0.82   |   9711
+| Class   | Precision | Recall | F1-Score | Support |
+|---------|------------|---------|-----------|-----------|
+| **Attack**  | 0.97  | 0.70  | 0.81  | 12,833 |
+| **Normal**  | 0.71  | 0.97  | 0.82  | 9,711 |
 
-    accuracy    |           |           | 0.82  |   22544
-   macro avg     |  0.84  |    0.84     | 0.82   |  22544
-weighted avg      | 0.86   |   0.82     | 0.82    | 22544
+| **Metric**   | **Value** |
+|-------------|----------|
+| **Accuracy** | 0.82     |
+| **Macro Avg** | Precision: 0.84, Recall: 0.84, F1-Score: 0.82 |
+| **Weighted Avg** | Precision: 0.86, Recall: 0.82, F1-Score: 0.82 |
 
 ### 6. Results
-- The model with the best performance was **[insert best model]**, achieving an accuracy of **[insert accuracy]**.
-- The most important features for detection were **[insert important features]**.
+- The model with the best performance was **[insert best model]**, achieving an accuracy of **82%**.
 
 ### 7. Conclusion
 The anomaly detection model successfully identified network attacks with high accuracy. Future work includes:
